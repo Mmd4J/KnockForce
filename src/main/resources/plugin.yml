@@ -1,0 +1,3 @@
+name: KnockForce
+version: '${project.version}'
+main: me.gameisntover.knockforce.KnockForce
