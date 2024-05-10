@@ -1,4 +1,4 @@
-package me.gameisntover.knockforce;
+package me.gameisntover.knockforce.entity;
 
 import org.bukkit.Location;
 

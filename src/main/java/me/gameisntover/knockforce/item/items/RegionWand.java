@@ -4,19 +4,20 @@ import com.cryptomorin.xseries.XEnchantment;
 import com.cryptomorin.xseries.XMaterial;
 import me.gameisntover.knockforce.KnockForce;
 import me.gameisntover.knockforce.entity.KPlayer;
-import me.gameisntover.knockforce.item.KInteractableItem;
+import me.gameisntover.knockforce.item.KIntractableItem;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.event.block.Action;
 import org.bukkit.inventory.ItemFlag;
 
-public class RegionWand extends KInteractableItem {
+public class RegionWand extends KIntractableItem {
     private KnockForce plugin = KnockForce.getInstance();
 
     public RegionWand() {
         super(XMaterial.BLAZE_ROD, "&bWand");
         addItemFlags(ItemFlag.HIDE_ENCHANTS, ItemFlag.HIDE_ATTRIBUTES);
-        addEnchantment(XEnchantment.MENDING, 1);
+        addEnchantment(XEnchantment.DURABILITY, 1);
+
     }
 
     @Override

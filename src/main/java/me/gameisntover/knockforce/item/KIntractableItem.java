@@ -5,9 +5,10 @@ import me.gameisntover.knockforce.entity.KPlayer;
 import org.bukkit.block.Block;
 import org.bukkit.block.BlockFace;
 import org.bukkit.event.block.Action;
+import org.bukkit.inventory.meta.ItemMeta;
 
-public class KInteractableItem extends KItem {
-    public KInteractableItem(XMaterial type, String name) {
+public class KIntractableItem extends KItem {
+    public KIntractableItem(XMaterial type, String name) {
         super(type, name);
     }
 
